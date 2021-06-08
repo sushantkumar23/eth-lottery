@@ -1,0 +1,20 @@
+{
+  "name": "eth-lottery",
+  "version": "1.0.0",
+  "description": "An ethereum smart contract for a managing a lottery",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "https://github.com/sushantkumar23/eth-lottery",
+  "author": "Sushant Kumar",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "ganache-cli": "^6.12.2",
+    "mocha": "^9.0.0",
+    "solc": "0.4.17",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web3": "1.3.5"
+  }
+}
